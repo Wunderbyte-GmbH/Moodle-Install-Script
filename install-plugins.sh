@@ -7,7 +7,7 @@ latestmoodle="MOODLE_11_STABLE"
 cd $moodleroot/theme/
 git clone https://github.com/willianmano/moodle-theme_moove.git moove
 cd moove
-if [ $moodleversion -eq $latestmoodle ]
+if [ "$moodleversion" = "$latestmoodle" ]
 then
   echo "Check out master"
   git checkout master
