@@ -1,5 +1,5 @@
 #!/bin/sh
-moodleroot="/var/www/html/moodle"
+moodleroot="/var/www/moodle"
 moodleversion="MOODLE_11_STABLE"
 # Latest released Moodle version
 latestmoodle="MOODLE_11_STABLE"
