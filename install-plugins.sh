@@ -29,7 +29,7 @@ git clone https://github.com/FMCorz/moodle-block_xp.git xp
 cd $moodleroot/mod/
 git clone https://github.com/mdjnelson/moodle-mod_customcert.git customcert
 cd customcert
-git checkout moodleversion
+git checkout $moodleversion
 
 # Install course format tiles
 cd $moodleroot/course/format
